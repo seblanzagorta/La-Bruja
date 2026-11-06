@@ -337,14 +337,8 @@ Bottle: ${agave.partnerProduct.bottleName} (${agave.partnerProduct.msrp})`;
                 {/* Disclosed Partner Bottle Card */}
                 <div className="rounded-xl p-4 lg:p-5 bg-[#171b1a]/60 backdrop-blur border border-white/15 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
                   <div className="flex flex-col gap-1">
-                    <div className="flex items-center gap-2">
-                      <span className="px-2 py-0.5 rounded text-[10px] font-['Barlow_Condensed'] uppercase bg-[#ffdea6] text-[#271900] font-bold tracking-wider">
-                        Sponsored Partner Recommendation
-                      </span>
-                      <span className="text-[#abb3af] text-xs">• Verified Palenque</span>
-                    </div>
                     <span className="font-['Barlow_Condensed'] text-xl lg:text-2xl font-bold text-[#f0f3ee]">
-                      {agave.partnerProduct.bottleName}
+                      ILLUSTRATIVE PRODUCT EXAMPLE • No sponsorship, sale, or affiliation.
                     </span>
                     <p className="font-['Manrope'] text-xs text-[#e1e6e1]/80 max-w-xl">
                       {agave.partnerProduct.verifiedNotes}

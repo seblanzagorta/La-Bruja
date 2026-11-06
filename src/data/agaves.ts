@@ -25,9 +25,9 @@ export const AGAVE_CATALOG: Record<string, AgaveProfile> = {
       maestroMezcalero: 'Rómulo Sánchez Parada',
       distillationType: 'Double distilled in copper pot stills',
       harvestAge: '8 to 10 years cultivated agave',
-      verifiedNotes: 'Calculated via Scorpio solar transit and active lunar phase for balanced terrestrial grounding. $58 MSRP supplied by brand.',
+      verifiedNotes: 'Calculated via Scorpio solar transit and active lunar phase for balanced terrestrial grounding. For botanical archetype reference only.',
       retailerUrl: 'https://www.reycampero.com',
-      sponsorshipDisclosure: 'Sponsored Partner Recommendation • Verified Palenque. Commercial terms agreed via independent brand allocation.'
+      sponsorshipDisclosure: 'Illustrative Product Example • No sponsorship, sale, or affiliation. Provided strictly for educational and botanical archetype reference.'
     }
   },
   tobala: {
@@ -56,7 +56,7 @@ export const AGAVE_CATALOG: Record<string, AgaveProfile> = {
       harvestAge: '12 to 14 years wild harvested',
       verifiedNotes: 'Distilled using pre-Hispanic clay pots which soften acidity and amplify earthy botanical complexity.',
       retailerUrl: 'https://www.mezcalvago.com',
-      sponsorshipDisclosure: 'Sponsored Partner Recommendation • Ancestral Clay Verified. Commercial terms agreed independently.'
+      sponsorshipDisclosure: 'Illustrative Product Example • No sponsorship, sale, or affiliation. Provided strictly for educational and botanical archetype reference.'
     }
   },
   tepeztate: {
@@ -85,7 +85,7 @@ export const AGAVE_CATALOG: Record<string, AgaveProfile> = {
       harvestAge: '25 to 30 years wild agave',
       verifiedNotes: 'One of the most revered ancestral distilleries in the Americas, operating continuous family tradition for four generations.',
       retailerUrl: 'https://www.realminero.com.mx',
-      sponsorshipDisclosure: 'Sponsored Partner Recommendation • Certified Ancestral Batch. Independent allocation.'
+      sponsorshipDisclosure: 'Illustrative Product Example • No sponsorship, sale, or affiliation. Provided strictly for educational and botanical archetype reference.'
     }
   },
   arroqueno: {
@@ -114,7 +114,7 @@ export const AGAVE_CATALOG: Record<string, AgaveProfile> = {
       harvestAge: '18 to 20 years',
       verifiedNotes: 'Selected for its extraordinary balance of floral cocoa warmth and refreshing vegetal green notes.',
       retailerUrl: 'https://www.actaval.com',
-      sponsorshipDisclosure: 'Sponsored Partner Recommendation • Verified Single Palenquero Allocation.'
+      sponsorshipDisclosure: 'Illustrative Product Example • No sponsorship, sale, or affiliation. Provided strictly for educational and botanical archetype reference.'
     }
   },
   madrecuixe: {
@@ -143,7 +143,7 @@ export const AGAVE_CATALOG: Record<string, AgaveProfile> = {
       harvestAge: '14 to 16 years semi-wild agave',
       verifiedNotes: 'Legendary fifth-generation maestro crafting benchmark minerality and vegetal structure in Minas clay.',
       retailerUrl: 'https://www.lalocura.mx',
-      sponsorshipDisclosure: 'Sponsored Partner Recommendation • Certified Artisanal/Ancestral.'
+      sponsorshipDisclosure: 'Illustrative Product Example • No sponsorship, sale, or affiliation. Provided strictly for educational and botanical archetype reference.'
     }
   },
   jabali: {
@@ -172,7 +172,7 @@ export const AGAVE_CATALOG: Record<string, AgaveProfile> = {
       harvestAge: '12 to 15 years wild',
       verifiedNotes: 'One of the rarest and most difficult agaves to distill in all of Mexico, producing singular aromatic intensity.',
       retailerUrl: 'https://www.reycampero.com',
-      sponsorshipDisclosure: 'Sponsored Partner Recommendation • Wild Harvest Allocation.'
+      sponsorshipDisclosure: 'Illustrative Product Example • No sponsorship, sale, or affiliation. Provided strictly for educational and botanical archetype reference.'
     }
   },
   sierra_negra: {
@@ -201,7 +201,7 @@ export const AGAVE_CATALOG: Record<string, AgaveProfile> = {
       harvestAge: '22 to 25 years wild agave',
       verifiedNotes: 'Extremely scarce heirloom agave protected through family-led reforestation initiatives.',
       retailerUrl: 'https://www.realminero.com.mx',
-      sponsorshipDisclosure: 'Sponsored Partner Recommendation • Rare Cultivar Guarantee.'
+      sponsorshipDisclosure: 'Illustrative Product Example • No sponsorship, sale, or affiliation. Provided strictly for educational and botanical archetype reference.'
     }
   }
 };

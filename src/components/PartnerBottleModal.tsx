@@ -23,7 +23,7 @@ export const PartnerBottleModal: React.FC<PartnerBottleModalProps> = ({
         <div className="p-6 bg-[#0c286f] text-white flex items-center justify-between border-b border-white/10">
           <div className="flex flex-col">
             <span className="font-['Barlow_Condensed'] text-xs font-bold uppercase tracking-widest text-[#ffdea6]">
-              Verified Artisanal Palenque Bottle
+              Illustrative Product Example
             </span>
             <h3 className="font-['Barlow_Condensed'] text-2xl font-bold uppercase tracking-tight">
               {bottle.bottleName}
@@ -86,11 +86,11 @@ export const PartnerBottleModal: React.FC<PartnerBottleModalProps> = ({
             </div>
           </div>
 
-          {/* Commercial Sponsorship Disclosure */}
+          {/* Non-affiliation and Educational Disclosure */}
           <div className="p-3.5 rounded-lg bg-[#292f2d]/60 border border-white/5 text-xs text-[#abb3af] flex items-start gap-2.5">
             <span className="material-symbols-outlined text-[18px] text-[#efbf64] shrink-0">info</span>
             <div>
-              <strong className="text-[#ffdea6]">Transparency Disclosure:</strong> {bottle.sponsorshipDisclosure} LA BRUJA does not own, bottle, or distribute spirits. When you acquire this bottle via our partner link, no personal birth data or astrological coordinates are ever shared.
+              <strong className="text-[#ffdea6]">Illustrative Notice:</strong> {bottle.sponsorshipDisclosure} LA BRUJA does not sell or distribute spirits, nor receive sponsorship fees. Provided for educational and cultural reference.
             </div>
           </div>
         </div>
@@ -98,7 +98,7 @@ export const PartnerBottleModal: React.FC<PartnerBottleModalProps> = ({
         {/* Footer Actions */}
         <div className="p-6 bg-[#292f2d] border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
           <span className="font-mono text-xs text-[#abb3af]">
-            Verified Batch ID: {bottle.id.toUpperCase()}-2025
+            Reference Profile ID: {bottle.id.toUpperCase()}-2025
           </span>
           <div className="flex items-center gap-3 w-full sm:w-auto">
             <button
@@ -113,7 +113,7 @@ export const PartnerBottleModal: React.FC<PartnerBottleModalProps> = ({
               rel="noopener noreferrer"
               className="w-full sm:w-auto px-6 py-3 rounded-full bg-[#b22b11] hover:bg-[#b83720] text-white font-['Barlow_Condensed'] text-xs uppercase font-bold tracking-wider text-center shadow transition-all cursor-pointer flex items-center justify-center gap-1.5"
             >
-              <span>Acquire From Partner Retailer</span>
+              <span>Explore Producer Reference</span>
               <span className="material-symbols-outlined text-[16px]">open_in_new</span>
             </a>
           </div>
