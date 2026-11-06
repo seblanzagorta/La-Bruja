@@ -1,0 +1,137 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #eff2ed;
+  --color-on-surface: #1a1c1b;
+  --color-deep-cobalt: #0c286f;
+  --color-primary: #00298f;
+  --color-primary-container: #163fb8;
+  --color-secondary: #b22b11;
+  --color-secondary-container: #ff6243;
+  --color-dark-tomato: #b83720;
+  --color-dark-paper: #171b1a;
+  --color-dark-cool-paper: #292f2d;
+  --color-cool-paper: #e1e6e1;
+  --color-tertiary-fixed: #ffdea6;
+  --color-tertiary-fixed-dim: #efbf64;
+  --color-on-tertiary-fixed: #271900;
+  --color-muted: #5b625e;
+  --color-dark-muted: #abb3af;
+  --color-off-white: #f0f3ee;
+  --color-surface-container: #eeeeec;
+  --color-surface-container-low: #f4f4f1;
+  --color-surface-container-high: #e8e8e6;
+  --color-surface-variant: #e2e3e0;
+  --color-surface-bright: #f9f9f7;
+
+  --font-eyebrow: "Barlow Condensed", sans-serif;
+  --font-headline-card: "Barlow Condensed", sans-serif;
+  --font-headline-section: "Barlow Condensed", sans-serif;
+  --font-display-hero: "Barlow Condensed", sans-serif;
+  --font-label-pill: "Barlow Condensed", sans-serif;
+  --font-body-md: "Manrope", sans-serif;
+  --font-body-lg: "Manrope", sans-serif;
+  --font-body-sm: "Manrope", sans-serif;
+  --font-tasting-notes: "Manrope", sans-serif;
+
+  --spacing-margin: 3rem;
+  --spacing-margin-mobile: 1.25rem;
+  --spacing-gutter: 1.5rem;
+  --spacing-gutter-mobile: 1rem;
+  --spacing-space-xs: 0.25rem;
+  --spacing-space-sm: 0.5rem;
+  --spacing-space-md: 1rem;
+  --spacing-space-lg: 1.5rem;
+  --spacing-space-xl: 2.5rem;
+  --spacing-space-2xl: 4rem;
+  --spacing-space-3xl: 6rem;
+}
+
+/* Material Symbols Outlined support */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  font-feature-settings: 'liga';
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Typography Scale helper classes from design system */
+.text-display-hero {
+  font-size: clamp(3.2rem, 7vw, 5.375rem);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+  font-weight: 900;
+}
+
+.text-headline-section {
+  font-size: clamp(2.5rem, 5.5vw, 4.25rem);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+  font-weight: 900;
+}
+
+.text-headline-card {
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  font-weight: 800;
+}
+
+.text-eyebrow {
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.15em;
+  font-weight: 700;
+}
+
+.text-label-pill {
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+}
+
+.text-body-lg {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+}
+
+.text-body-md {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-weight: 400;
+}
+
+.text-body-sm {
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  font-weight: 400;
+}
+
+.text-tasting-notes {
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+
+/* Custom scrollbar and aesthetic transitions */
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: #b22b11;
+  color: #eff2ed;
+}

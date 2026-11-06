@@ -1,0 +1,6 @@
+{
+  "name": "LA BRUJA — Celestial Agave & Mezcal Rituals",
+  "description": "An astrological calendar and ritual guide connecting celestial transits, lunar phases, and agave terroir to discover artisanal mezcal varietals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
